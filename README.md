@@ -1,5 +1,5 @@
 # BloodyTelevision
-Dataset til Python opgaver
+Dataset for Python:
 
 http://www.imdb.com/interfaces/
 (title.basics.tsv.gz)
