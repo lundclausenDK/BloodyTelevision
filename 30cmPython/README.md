@@ -2,7 +2,9 @@
 
 For this project you will need to run: 
 
-conda install requests
+conda install requests + others
+
+Question 3 method takes some time to load :)
 
 When the program is run, the charts will be show one at a time, to get the next chart just close the current chart.
 Each question has its own chart except question 5 which uses two.
