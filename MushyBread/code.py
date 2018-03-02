@@ -89,10 +89,10 @@ def question_5():
     plt.show()
 
 
-
-question_1()
-question_2()
-question_3()
-question_4()
-question_5()
+if __name__ == '__main__':
+    question_1()
+    question_2()
+    question_3()
+    question_4()
+    question_5()
 
