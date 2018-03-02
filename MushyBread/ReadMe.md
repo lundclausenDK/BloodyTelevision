@@ -5,17 +5,12 @@ Installment:
 
 Answers:
 
-1.
-About 5.000
+1. About 5.000
 
-2.
-Active-Regular
+2. Active-Regular
 
-3.
-White people
+3. White people
 
-4.
-38 INF 2 DIV
+4. 38 INF 2 DIV
 
-5.
-CALIFORNIA
+5. CALIFORNIA
