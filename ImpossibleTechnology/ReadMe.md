@@ -11,10 +11,10 @@ Answers:
 
 - What song uses the word "feet" the most time?<br>
 = Song: "Cold feet":<br>
-Approx 25 times: "feet"
+23 times
 
 - What is the average number of words per song?<br>
-= Approx 200
+= 221,82
 
 - Show the distribution of number of words in the songs. (Example: how many songs have 5-10 words, 10-20 words)<br>
-= 300 songs has about 150 words
+= 300 songs has about 150 words (Graph gives explanation)

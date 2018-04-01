@@ -64,22 +64,28 @@ def question_2():
 
 
 def question_3():
-    song_text = my_matrix[:, 3]
+    song_text = my_matrix[:,3]
+    song_title = my_matrix[:,1]
     # Words we will search for
-    dist = {'feet': 0, 'toes': 0, 'smell': 0}
+    dist = {}
 
     for i in range(len(song_text)):
         words = song_text[i].split()
+        feets = 0
         for j in words:
-            if j in dist.keys():
-                dist[j] += 1
+            if j == 'feet':
+                feets += 1
 
-    plt.title('3 words to search for')
-    plt.bar(range(len(dist)), list(dist.values()))
-    plt.xticks(range(len(dist)), list(dist.keys()))
-    plt.ylabel('Occurrences')
-    plt.xlabel('Our choosen words')
+        dist[song_title[i]] = feets
+
+    sorted_songs = sorted(dist.items(), key=itemgetter(1), reverse=True)
+
+    plt.title('Song with feet metioned most')
+    plt.bar(sorted_songs[0][0], sorted_songs[0][1])
+    plt.ylabel('Amount')
+    plt.xlabel('Song Name')
     plt.show()
+    print('Number of feets: ', sorted_songs[0][1])
 
 
 def question_4():
@@ -99,6 +105,7 @@ def question_4():
     plt.bar('Least words: ' + sorted_songs[-1][0], sorted_songs[-1][1])
     plt.ylabel('Numbers of words')
     plt.show()
+    print('Average: ', round(average, 2))
 
 
 def question_5():
